@@ -1,6 +1,6 @@
 c0= int(input("Give me the number:")) #User will get a prompt to enter a integer
 
-steps=0
+steps=0 # set step counter to zero to record number of steps
 
 while c0 != 1:  # if the entered integer by the user is not equal to 1 then it will go on loop
     if c0 % 2 == 0: 
